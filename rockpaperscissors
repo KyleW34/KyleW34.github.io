@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Rock, Paper, Scissors</title>  
+  </head>
+  <body>
+  
+  
+     <script>
+      
+      // variables to hold our choices
+      var choice1 = "rock";  
+      var choicd2 = "paper";
+      var choice3 = "scissors";
+      
+        
+      //variables to hold our scroe
+      var humanScore = 0;
+      var computerScore = 0;   
+        
+      // variables to hold the choices
+      var humanChoice = "";
+      var computerChoice = "";  
+      
+      function doTurn() {
+         humanChoice = "rock"; // TODO: allow user input later
+         computerChoice = "paper";
+         
+         if (humanChoice === computerChoice) { // draw
+            console.log("Draw!");
+         
+         }
+         
+         else if (humanChoice === "rock" 
+                 && computerChoice === "scissors" ||
+                 humanChoice === "scissors" &&
+                 ) // win
+      
+            
+         }
+   
+        
+        
+     </script>
+     
+  </body>
+   
+</html>
